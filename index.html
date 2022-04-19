@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- My CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <title>BeliinAja.com</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color: #22577e; font-weight: bold; font-size: 30px">BELIINAJA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <form class="d-flex ms-auto mb-2">
+              <input class="form-control me-2" style="width: 400px" type="search" placeholder="Cari Barang Disini!" aria-label="Search" />
+              <button class="btn btn-outline-primary" type="submit"><i class="bi bi-search"></i></button>
+            </form>
+            <div class="cta ms-auto">
+              <button type="button" class="btn btn-outline-primary">Daftar</button>
+              <button type="button" class="btn" style="background-color: #22577e; color: white">Masuk</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Akhir Navbar -->
+
+      <!-- Hero Title -->
+      <div id="Carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner rounded mt-5">
+          <div class="carousel-item active">
+            <img src="img/Hero/1.jpg" class="d-block w-100" alt="hero 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="img/Hero/2.jpg" class="d-block w-100" alt="hero 2" />
+          </div>
+          <div class="carousel-item">
+            <img src="img/Hero/3.jpg" class="d-block w-100" alt="hero 3" />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="row mt-3">
+        <div class="col-md-4 mb-2">
+          <button class="btn" style="background-color: #22577e; color: white; width: 350px" type="submit">Flash Sale</button>
+        </div>
+        <div class="col-md-4 mb-2">
+          <button class="btn" style="background-color: #22577e; color: white; width: 350px" type="submit">Mall</button>
+        </div>
+        <div class="col-md-4 mb-2">
+          <button class="btn" style="background-color: #22577e; color: white; width: 350px" type="submit">Top Up</button>
+        </div>
+      </div>
+      <!-- Akhir Hero Title -->
+      <div class="content">
+        <!-- Kategori -->
+        <h3 class="mt-5">KATEGORI</h3>
+        <div class="row">
+          <div class="col-md-2 mb-2">
+            <div class="card">
+              <img src="img/Kategori/bajumuslim.jpg" class="card-img-top" alt="Baju Muslim" />
+              <div class="card-body">
+                <p class="card-text text-center">Baju Muslim</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 mb-2">
+            <div class="card">
+              <img src="img/Kategori/casualpria.jpg" class="card-img-top" alt="Casual Pria" />
+              <div class="card-body">
+                <p class="card-text text-center">Casual Pria</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 mb-2">
+            <div class="card">
+              <img src="img/Kategori/dresswanita.jpg" class="card-img-top" alt="Dress Wanita" />
+              <div class="card-body">
+                <p class="card-text text-center">Dress Wanita</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 mb-2">
+            <div class="card">
+              <img src="img/Kategori/tshirtpria.jpg" class="card-img-top" alt="T-Shirt Pria" />
+              <div class="card-body">
+                <p class="card-text text-center">T-Shirt Pria</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 mb-2">
+            <div class="card">
+              <img src="img/Kategori/serum.png" class="card-img-top" alt="Serum" />
+              <div class="card-body">
+                <p class="card-text text-center">Serum</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 mb-2">
+            <div class="card">
+              <img src="img/Kategori/masker.jpg" class="card-img-top" alt="Masker" />
+              <div class="card-body">
+                <p class="card-text text-center">Masker</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Akhir Kategori -->
+
+        <!-- Katalog -->
+        <secttion id="katalog">
+          <h3 class="mt-5">UNTUK ANDA</h3>
+          <div class="row mt-5">
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img src="img/Katalog/1.2.jpg" class="card-img-top" alt="Katalog 1" />
+                <div class="card-body">
+                  <p style="font-weight: bold">Rp.125.000</p>
+                  <p class="card-text">Kurta Pria tangan pendek</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img src="img/Katalog/2.1.jpg" class="card-img-top" alt="Katalog 1" />
+                <div class="card-body">
+                  <p style="font-weight: bold">Rp.125.000</p>
+                  <p class="card-text">Kurta Pria tangan pendek</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img src="img/Katalog/3.1.jpg" class="card-img-top" alt="Katalog 1" />
+                <div class="card-body">
+                  <p style="font-weight: bold">Rp.125.000</p>
+                  <p class="card-text">Kurta Pria tangan pendek</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img src="img/Katalog/4.1.jpg" class="card-img-top" alt="Katalog 1" />
+                <div class="card-body">
+                  <p style="font-weight: bold">Rp.125.000</p>
+                  <p class="card-text">Kurta Pria tangan pendek</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img src="img/Katalog/5.1.jpg" class="card-img-top" alt="Katalog 1" />
+                <div class="card-body">
+                  <p style="font-weight: bold">Rp.125.000</p>
+                  <p class="card-text">Kurta Pria tangan pendek</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img src="img/Katalog/6.2.jpg" class="card-img-top" alt="Katalog 1" />
+                <div class="card-body">
+                  <p style="font-weight: bold">Rp.125.000</p>
+                  <p class="card-text">Kurta Pria tangan pendek</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img src="img/Katalog/7.1.jpg" class="card-img-top" alt="Katalog 1" />
+                <div class="card-body">
+                  <p style="font-weight: bold">Rp.125.000</p>
+                  <p class="card-text">Kurta Pria tangan pendek</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img src="img/Katalog/8.1.jpg" class="card-img-top" alt="Katalog 1" />
+                <div class="card-body">
+                  <p style="font-weight: bold">Rp.125.000</p>
+                  <p class="card-text">Kurta Pria tangan pendek</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img src="img/Katalog/8.1.jpg" class="card-img-top" alt="Katalog 1" />
+                <div class="card-body">
+                  <p style="font-weight: bold">Rp.125.000</p>
+                  <p class="card-text">Kurta Pria tangan pendek</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img src="img/Katalog/10.jpg" class="card-img-top" alt="Katalog 1" />
+                <div class="card-body">
+                  <p style="font-weight: bold">Rp.100.000</p>
+                  <p class="card-text">Sepatu Nice Aurora</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img src="img/Katalog/11.jpg" class="card-img-top" alt="Katalog 1" />
+                <div class="card-body">
+                  <p style="font-weight: bold">Rp.80.000</p>
+                  <p class="card-text">Dress Wanita</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img src="img/Katalog/12.jpg" class="card-img-top" alt="Katalog 1" />
+                <div class="card-body">
+                  <p style="font-weight: bold">Rp.65.000</p>
+                  <p class="card-text">T-Shirt Pria Casual</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </secttion>
+        <!-- Akhir Katalog -->
+      </div>
+
+      <div class="footer">
+        <section id="footer">
+          <div class="row mt-5">
+            <div class="col-md-4 mb-3 text-center">
+              <h5>BELIINAJA</h5>
+                <p>TENTANG BELIINAJA<br/>MITRA BLOG<br />KARIR<br />BLOG</p>
+              </ul>
+            </div>
+            <div class="col-md-4 mb-3 text-center">
+              <h5>BANTUAN</h5>
+              <p>SYARAT DAN KETENTUAN<br>KEBIJAKAN PRIVASI<br>MITRA<br>BELIINAJA CARE</p>
+            </div>
+            <div class="col-md-4 mb-3 text-center">
+              <h5>OFFICE</h5>
+              <p>PT BELIINAJA INDONESIA<br>Jl KH. Wahid Hasyim Kel. Kembangan No. 10D<br>JAKARTA INDONESIA<br>team@beliinaja.com</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="container-fluid text-center mt-5">
+      <p>Copyright   <i class="bi bi-heart-fill" style="color: red;"></i>   2022 BELIINAJA.COM</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
