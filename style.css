@@ -1,0 +1,16 @@
+@media screen and (min-width: 994px) {
+  .carousel-inner {
+    height: 400px;
+  }
+  .collapse .d-flex {
+    margin-bottom: 0px;
+  }
+}
+
+#footer .Beliinaja {
+  list-style: none;
+}
+
+#footer .Beliinaja li {
+  color: black;
+}
